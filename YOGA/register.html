@@ -29,7 +29,48 @@
         <TR bgcolor="lightpink" align="center">
             <td><label for="psw">Enter Password(Max length 10)</label></td>
             <td><input type="password" required maxlength="10" name="psw" id="psw"></td>
+
+            <tr bgcolor="lightgrey" align="center">
+                <td><label for="Gender">Select your Gender</label></td>
+                <td><input type="radio" name="Gender" id="Gender" value="Female" required>Female
+                <input type="radio" name="Gender" id="Male" value="Male" required>Male</td>
+            </tr>
         </TR>
+        <tr bgcolor="lightyellow" align="center">
+            <td><label for="newsletter"></label>Suscribe our newsletter</td>
+            <td><input type="checkbox" name="newslwtter" id="newsletter" value="yes" checked></td>
+        </tr>
+        <tr bgcolor="lightgreen" align="center">
+            <td><label for="course">Select the course you want to register</label></td>
+            <td><select name="course" id="course" required>
+                <option value="1">One week short term</option>
+                <option value="2">One month Course</option>
+                <option value="3" selected>One year diploma Course</option>
+                <option value="4">Three year degree course</option>
+                <option value="5">Five year degree course</option>
+            </select></td>
+        </tr>
+
+        <tr align="center" bgcolor="lightblue">
+            <td><label for="dob">Select your date of birth</label></td>
+            <td><input type="date" name="dob" id="dob"></td>
+        </tr>
+
+        <tr align="center" bgcolor="lightyellow">
+            <td><label for="photo">upload your photo</label></td>
+            <td><input type="file" name="photo" id="photo"></td>
+        </tr>
+
+        <tr align="center" bgcolor="lightpink">
+            <td><label for="address"> Why do you want to opt this course</label></td>
+            <td><textarea name="reason" id="reason" cols="30" rows="10"></textarea></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+
         <tr bgcolor="lightblue" align="center">
             <td><input type="Submit"></td>
             <td><input type="Reset"></td>
