@@ -4,44 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="icon" type="image/x-icon" href="images/logoicon.png">   
+    <title>Daily Yoga</title>
+    <link rel="icon" type="image/x-icon" href="Images/coursepic.png">   
 </head>
-<body>
-    <a href="index.html">Home</a>
-    <a href="about.html">About us</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="courses.html">Courses</a>
-    <a href="register.html">Register</a>
-    <a href="contact.html">Contact Us</a>
+<body  bgcolor="#ccffff" text="BLACK">
+    <a name="top"></a>
+    <hr><table width="1000" align="center" bgcolor="pink" text="white" border="2" bordercolor="black" background="images/bg2.jpg">
+        <tr align="center">
+          <td><a href="index.html">Home</a></td>
+          <td><a href="about.html">About us</a></td>
+           <td><a href="gallery.html">Gallery</a></td>
+           <td><a href="courses.html">Courses</a></td>
+           <td><a href="register.html">Register</a></td>
+           <td><a href="contact.html">Contact Us</a></td>
+        </tr>
+        </table><hr>
 
     <h1 align="center">Register Here</h1>
 <form action="thanks.html" method="get">
     <table align="center" width="1000">
         <tr bgcolor="lightblue" align="center">
-            <td><label for="fname">Enter First Name</label></td>
+            <td><label for="fname" style="font-family: cambria"><b> Enter First Name </b></label></td>
             <td><input type="text" name="fname" id="fname"></td>
         </tr>
-        <tr bgcolor="lightgrey" align="center">
-            <td><label for="lname">Enter Last Name</label></td>
+        <tr bgcolor="lightyellow" align="center">
+            <td><label for="lname" style="font-family: cambria"><b>Enter Last Name </b></label></td>
             <td><input type="text" name="lname" id="lname"></td>
         </tr>
-        <TR bgcolor="lightpink" align="center">
-            <td><label for="psw">Enter Password(Max length 10)</label></td>
+        <TR bgcolor="lightblue" align="center">
+            <td><label for="psw" style="font-family: cambria"><b> Enter Password </b>(Max length 10) </label></td>
             <td><input type="password" required maxlength="10" name="psw" id="psw"></td>
 
-            <tr bgcolor="lightgrey" align="center">
-                <td><label for="Gender">Select your Gender</label></td>
+            <tr bgcolor="lightyellow" align="center">
+                <td><label for="Gender" style="font-family: cambria"><b> Select your Gender </b></label></td>
                 <td><input type="radio" name="Gender" id="Gender" value="Female" required>Female
                 <input type="radio" name="Gender" id="Male" value="Male" required>Male</td>
             </tr>
         </TR>
-        <tr bgcolor="lightyellow" align="center">
-            <td><label for="newsletter"></label>Suscribe our newsletter</td>
+        <tr bgcolor="lightblue" align="center">
+            <td><label for="newsletter"></label style="font-family: cambria"><b>Suscribe our newsletter</b> </td>
             <td><input type="checkbox" name="newslwtter" id="newsletter" value="yes" checked></td>
         </tr>
-        <tr bgcolor="lightgreen" align="center">
-            <td><label for="course">Select the course you want to register</label></td>
+        <tr bgcolor="lightyellow" align="center">
+            <td><label for="course" style="font-family: cambria"><b>Select the course you want to register</b> </label></td>
             <td><select name="course" id="course" required>
                 <option value="1">One week short term</option>
                 <option value="2">One month Course</option>
@@ -52,30 +57,25 @@
         </tr>
 
         <tr align="center" bgcolor="lightblue">
-            <td><label for="dob">Select your date of birth</label></td>
+            <td><label for="dob" style="font-family: cambria"><b> Select your date of birth</b></label></td>
             <td><input type="date" name="dob" id="dob"></td>
         </tr>
 
         <tr align="center" bgcolor="lightyellow">
-            <td><label for="photo">upload your photo</label></td>
+            <td><label for="photo" style="font-family: cambria"><b>Upload your photo</b> </label></td>
             <td><input type="file" name="photo" id="photo"></td>
         </tr>
 
-        <tr align="center" bgcolor="lightpink">
-            <td><label for="address"> Why do you want to opt this course</label></td>
+        <tr align="center" bgcolor="lightblue">
+            <td><label for="address" style="font-family: cambria"><b> Why do you want to opt this course</b></label></td>
             <td><textarea name="reason" id="reason" cols="30" rows="10"></textarea></td>
         </tr>
-
-        <tr>
-            <td></td>
-            <td></td>
-        </tr>
-
-        <tr bgcolor="lightblue" align="center">
+        <tr bgcolor="lightyellow" align="center">
             <td><input type="Submit"></td>
             <td><input type="Reset"></td>
         </tr>
     </table>
 </form>
+<p align="center" style="font-style: italic;"> © Harsh Tomar 2022</p>
 </body>
 </html>
